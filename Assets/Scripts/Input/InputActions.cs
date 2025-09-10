@@ -8,6 +8,7 @@ public class InputActions : MonoBehaviour
     private InputActionMap _playerActionMap;
     private InputAction _lookAction;
     private InputAction _moveAction;
+    private InputAction _verticalAction;
 
     [SerializeField]
     private float _sensitivity = 100f;
@@ -22,6 +23,7 @@ public class InputActions : MonoBehaviour
         _playerActionMap = _inputActions.FindActionMap("Player");
         _lookAction = _playerActionMap.FindAction("Look");
         _moveAction = _playerActionMap.FindAction("Move");
+        _verticalAction = _playerActionMap.FindAction("Vertical");
     }
 
     private void OnEnable()
@@ -45,5 +47,8 @@ public class InputActions : MonoBehaviour
         Vector2 movement = _moveAction.ReadValue<Vector2>();
         Vector3 direction = transform.forward * movement.y + transform.right * movement.x;
         transform.position += _moveSpeed * Time.deltaTime * direction;
+
+        float vertical = _verticalAction.ReadValue<float>();
+        transform.position += _moveSpeed * Time.deltaTime * vertical * transform.up;
     }
 }
