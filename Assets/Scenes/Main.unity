@@ -270,7 +270,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputActions
   _inputActions: {fileID: -944628639613478452, guid: 6a384eca470a91b4baf5e5e253148c74, type: 3}
-  _sensitivity: 100
+  _sensitivity: 50
+  _moveSpeed: 5
+  _movementClamp: 1
+  _minBounds: {x: -15, y: 1, z: -15}
+  _maxBounds: {x: 15, y: 30, z: 15}
 --- !u!1 &209147062
 GameObject:
   m_ObjectHideFlags: 0
