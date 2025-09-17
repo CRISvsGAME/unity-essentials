@@ -38,11 +38,17 @@ public class InputActions : MonoBehaviour
     private void OnEnable()
     {
         _playerActionMap.Enable();
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void OnDisable()
     {
         _playerActionMap.Disable();
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     private void Update()
