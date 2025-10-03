@@ -633,7 +633,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 398df4a90b753d24a91538e1541d8294, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1515,6 +1515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 524019192}
   - component: {fileID: 524019191}
+  - component: {fileID: 524019193}
   m_Layer: 0
   m_Name: Bird_01
   m_TagString: Untagged
@@ -1534,7 +1535,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 927f1a8af4263104db5d2818f1b24fa9, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1634,6 +1635,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1816439538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524019193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524019190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d48e7dadea2a4d4d83615b1b989e5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomInterval
+  _minSeconds: 5
+  _maxSeconds: 15
 --- !u!1 &527205558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +1786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560157602}
   - component: {fileID: 560157603}
+  - component: {fileID: 560157604}
   m_Layer: 0
   m_Name: Bird_02
   m_TagString: Untagged
@@ -1805,7 +1821,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: f27abcdbbaaed6846ae5debcf5083dee, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1890,6 +1906,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &560157604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560157601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d48e7dadea2a4d4d83615b1b989e5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomInterval
+  _minSeconds: 5
+  _maxSeconds: 15
 --- !u!1001 &563622732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3680,6 +3710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813113197}
   - component: {fileID: 1813113198}
+  - component: {fileID: 1813113199}
   m_Layer: 0
   m_Name: Bird_03
   m_TagString: Untagged
@@ -3714,7 +3745,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3561ec1c92b598f4eab608d713bfdbdd, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -3799,6 +3830,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1813113199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813113196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d48e7dadea2a4d4d83615b1b989e5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomInterval
+  _minSeconds: 5
+  _maxSeconds: 15
 --- !u!1 &1816439537
 GameObject:
   m_ObjectHideFlags: 0
