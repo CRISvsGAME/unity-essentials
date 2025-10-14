@@ -4690,6 +4690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swing_01
       objectReference: {fileID: 0}
+    - target: {fileID: 2262067070254189611, guid: fe52981a2049bc84d845ae8ea1a33450, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fd0e1a4f4dea2924ab34c5900afce346, type: 2}
     - target: {fileID: 3629169089011181771, guid: fe52981a2049bc84d845ae8ea1a33450, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
