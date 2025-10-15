@@ -40,6 +40,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2609942261691558099}
     m_Modifications:
+    - target: {fileID: 7720723775082876974, guid: d088ea05b19042b40b4db6dbdceb3ca5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96b513210e2b7af4390ded27e18b558a, type: 2}
     - target: {fileID: 8080998345668424187, guid: d088ea05b19042b40b4db6dbdceb3ca5, type: 3}
       propertyPath: m_Name
       value: VariantChair_02
