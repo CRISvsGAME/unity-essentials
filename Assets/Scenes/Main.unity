@@ -1341,10 +1341,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PicnicTable_01
       objectReference: {fileID: 0}
-    - target: {fileID: 2720025266393644959, guid: 3cb0380025a6a0445887e9ee32b3f6d0, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: da1300d2c64512e4f81b8994086a25e6, type: 2}
     - target: {fileID: 5862793881398886716, guid: 3cb0380025a6a0445887e9ee32b3f6d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5
@@ -4694,10 +4690,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swing_01
       objectReference: {fileID: 0}
-    - target: {fileID: 2262067070254189611, guid: fe52981a2049bc84d845ae8ea1a33450, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: fd0e1a4f4dea2924ab34c5900afce346, type: 2}
     - target: {fileID: 3629169089011181771, guid: fe52981a2049bc84d845ae8ea1a33450, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
