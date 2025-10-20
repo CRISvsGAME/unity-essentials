@@ -84,6 +84,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VariantChest_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1191730629610832786, guid: 3eda654821e940740b1cfa6ba2f760a2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 555b0d9248467294f9fa37ab16172aed, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
