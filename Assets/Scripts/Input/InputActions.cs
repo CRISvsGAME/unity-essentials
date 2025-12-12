@@ -11,7 +11,7 @@ public class InputActions : MonoBehaviour
     private InputAction _verticalAction;
 
     [SerializeField]
-    private float _sensitivity = 100f;
+    private float _sensitivity = 10f;
     private float _xRotation = 0f;
     private float _yRotation = 0f;
 

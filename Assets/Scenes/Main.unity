@@ -191,7 +191,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5919879355168874741, guid: 379798923585b9f4da6f5d671bcf755d, type: 3}
   m_PrefabInstance: {fileID: 4611329071611752497}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &66784638
+--- !u!114 &66784640
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -203,6 +203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a864977a2bbff64485cc7b19ac748a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chest
+  _glowIntensity: 2
+  _glowColor: {r: 1, g: 1, b: 0, a: 1}
+  _fadeDuration: 0.5
 --- !u!4 &73254413 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3692362218811905571, guid: 00a6d616b5df9e94fa82df0cfa7f02bd, type: 3}
@@ -474,7 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputActions
   _inputActions: {fileID: -944628639613478452, guid: 6a384eca470a91b4baf5e5e253148c74, type: 3}
-  _sensitivity: 25
+  _sensitivity: 10
   _moveSpeed: 5
   _movementClamp: 1
   _minBounds: {x: -15, y: 0.5, z: -15}
@@ -5072,7 +5075,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5919879355168874741, guid: 379798923585b9f4da6f5d671bcf755d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 66784638}
+      addedObject: {fileID: 66784640}
   m_SourcePrefab: {fileID: 100100000, guid: 379798923585b9f4da6f5d671bcf755d, type: 3}
 --- !u!1001 &4714513552505032265
 PrefabInstance:
@@ -5383,8 +5386,8 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 249364044}
   - {fileID: 111287777}
+  - {fileID: 249364044}
   - {fileID: 527205561}
   - {fileID: 605946333}
   - {fileID: 1258230574}
