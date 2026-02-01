@@ -3,29 +3,19 @@ using UnityEngine.InputSystem;
 
 public class InputActions : MonoBehaviour
 {
-    [SerializeField]
-    private InputActionAsset _inputActions;
+    [SerializeField] private InputActionAsset _inputActions;
     private InputActionMap _playerActionMap;
     private InputAction _lookAction;
     private InputAction _moveAction;
     private InputAction _verticalAction;
 
-    [SerializeField]
-    private float _sensitivity = 10f;
+    [SerializeField] private float _sensitivity = 10f;
+    [SerializeField] private float _moveSpeed = 10f;
+    [SerializeField] private bool _movementClamp = false;
+    [SerializeField] private Vector3 _minBounds = new(-15f, 1f, -15f);
+    [SerializeField] private Vector3 _maxBounds = new(15f, 30f, 15f);
     private float _xRotation = 0f;
     private float _yRotation = 0f;
-
-    [SerializeField]
-    private float _moveSpeed = 10f;
-
-    [SerializeField]
-    private bool _movementClamp = false;
-
-    [SerializeField]
-    private Vector3 _minBounds = new(-15f, 1f, -15f);
-
-    [SerializeField]
-    private Vector3 _maxBounds = new(15f, 30f, 15f);
 
     private void Awake()
     {

@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class CameraRaycast : MonoBehaviour
 {
-    [SerializeField]
-    private float _rayDistance = 5f;
+    [SerializeField] private float _rayDistance = 5f;
 
     private IInteractable _currentInteractable;
 

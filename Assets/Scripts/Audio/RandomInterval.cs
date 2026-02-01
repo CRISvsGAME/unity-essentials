@@ -4,11 +4,8 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class RandomInterval : MonoBehaviour
 {
-    [SerializeField]
-    private float _minSeconds = 5f;
-
-    [SerializeField]
-    private float _maxSeconds = 15f;
+    [SerializeField] private float _minSeconds = 5f;
+    [SerializeField] private float _maxSeconds = 15f;
 
     private AudioSource _audioSource;
     private Coroutine _audioCoroutine;

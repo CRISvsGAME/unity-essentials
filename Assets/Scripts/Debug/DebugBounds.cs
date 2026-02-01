@@ -12,8 +12,6 @@ public class DebugBounds : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(
-            $"{name} Bounds | X: {_renderer.bounds.size.x:F10} Y: {_renderer.bounds.size.y:F10} Z: {_renderer.bounds.size.z:F10}"
-        );
+        Debug.Log($"{name} Bounds | X: {_renderer.bounds.size.x:F10} Y: {_renderer.bounds.size.y:F10} Z: {_renderer.bounds.size.z:F10}");
     }
 }

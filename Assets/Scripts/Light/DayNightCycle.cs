@@ -2,19 +2,16 @@ using UnityEngine;
 
 public class DayNightCycle : MonoBehaviour
 {
-    [SerializeField]
     [Tooltip("Length of a full day")]
-    private float _dayLengthInSeconds = 60f;
+    [SerializeField] private float _dayLengthInSeconds = 60f;
 
     [Range(0f, 1f)]
-    [SerializeField]
     [Tooltip("Starting time of day)")]
-    private float _startTimeNormalized = 0.1f;
+    [SerializeField] private float _startTimeNormalized = 0.1f;
 
     [Range(0.1f, 0.9f)]
-    [SerializeField]
     [Tooltip("Fraction of daytime cycle")]
-    private float _daytimeFraction = 0.75f;
+    [SerializeField] private float _daytimeFraction = 0.75f;
 
     private Vector3 _initialEuler;
     private float _timeOfDay;
